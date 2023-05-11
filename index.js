@@ -7,9 +7,13 @@ function newImage(url, left, bottom){
     document.body.append(image)
     return image
 }
-function move() {
 
+function move(image, left, bottom){
+    image.style.position = 'fixed'
+    image.style.left = left + 'px'
+    image.style.bottom = bottom + 'px'
 }
+
 
 
 newImage('assets/green-character.gif', 100, 250)
