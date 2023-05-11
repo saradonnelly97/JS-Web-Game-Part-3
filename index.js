@@ -7,6 +7,10 @@ function newImage(url, left, bottom){
     document.body.append(image)
     return image
 }
+function move() {
+
+}
+
 
 newImage('assets/green-character.gif', 100, 250)
 newImage('assets/tree.png', 200, 450)
